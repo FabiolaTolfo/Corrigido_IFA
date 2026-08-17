@@ -80,14 +80,13 @@ section {
 
 .galeria img {
     width: 350px;
-    height: 300px;
-    object-fit: contain;
+    max-width: 100%;
+    height: auto;
     background-color: white;
     border: 8px solid #5BBE42;
     border-radius: 0;
     display: block;
 }
-
 video {
     width: 500px;
     max-width: 90%;
